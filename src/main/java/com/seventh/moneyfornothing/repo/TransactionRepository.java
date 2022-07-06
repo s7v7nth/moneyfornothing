@@ -1,6 +1,6 @@
-package repo;
+package com.seventh.moneyfornothing.repo;
 
-import model.Transaction;
+import com.seventh.moneyfornothing.model.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {

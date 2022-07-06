@@ -1,11 +1,11 @@
-package controller;
+package com.seventh.moneyfornothing.controller;
 
-import model.Category;
+import com.seventh.moneyfornothing.model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import repo.CategoryRepository;
+import com.seventh.moneyfornothing.repo.CategoryRepository;
 
 import javax.validation.Valid;
 import java.net.URI;

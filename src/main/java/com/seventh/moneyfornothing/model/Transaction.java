@@ -1,4 +1,4 @@
-package model;
+package com.seventh.moneyfornothing.model;
 
 import javax.persistence.*;
 

@@ -1,6 +1,6 @@
-package repo;
+package com.seventh.moneyfornothing.repo;
 
-import model.Category;
+import com.seventh.moneyfornothing.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {

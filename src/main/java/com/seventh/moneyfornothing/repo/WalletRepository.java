@@ -1,6 +1,6 @@
-package repo;
+package com.seventh.moneyfornothing.repo;
 
-import model.Wallet;
+import com.seventh.moneyfornothing.model.Wallet;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface WalletRepository extends JpaRepository<Wallet, Long> {
